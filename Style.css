@@ -7,7 +7,6 @@ body {
 
 #header {
   height: 100vh;
-  /* background-image: url(img/background.webp); */
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/background.jpg);
   background-position: center;
   background-size: cover;
@@ -172,4 +171,43 @@ body {
   width: 20px;
   height: 20px;
   z-index: 1;
+}
+
+/* Courses */
+
+.courses {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+.expand-btn {
+  background: #000;
+  color: #fff;
+  border: solid 1px #000;
+  position: relative;
+  font-size: 20px;
+  outline: none !important;
+  padding: 18px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.expand-btn:hover {
+  background-color: rgb(43, 42, 42);
+}
+
+.expand-btn .fa-caret-down{
+  margin: 0 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.panel-collapse {
+  text-align: center;
+  border: solid 1px #000;
+  font-size: 18px;
+  background: #f9f9f9;
+  position: relative;
 }
